@@ -1,6 +1,6 @@
 # Always Bulk
 
-![Lasha](public/lasha.png)
+![Lasha](src/assets/lasha.png)
 
 ### Setup
 ```sh
