@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "rm -rf docs && vite build && mv dist docs"
+    "build": "run-script-os",
+    "build:macos": "rm -rf docs && vite build && mv dist docs",
+    "build:win32": "(if exist docs (rd /s/q docs)) & vite build & ren dist docs"
   },
   "dependencies": {
     "vue": "^3.5.28"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.4",
+    "run-script-os": "^1.1.6",
     "vite": "^7.3.1",
     "vite-plugin-vue-devtools": "^8.0.6"
   },

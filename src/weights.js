@@ -6,7 +6,7 @@ export const cycle = [
     {
         'week': '1',
         'back_squat': '125 x 5',
-        'clean_pull': '-',
+        'clean_pull': '90 x 3',
         'front_squat': '-',
         'snatch_pull': '-',
     },
