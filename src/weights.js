@@ -4,18 +4,25 @@ export const clean_jerk = '85'
 
 export const cycle = [
     {
-        'week': '1',
+        'week': '0',
         'back_squat': '125 x 5',
         'clean_pull': '90 x 3',
         'front_squat': '110 x 4',
         'snatch_pull': '80 x 3',
     },
     {
-        'week': '2',
+        'week': '1',
         'back_squat': '130 x 5',
         'clean_pull': '95 x 3',
+        'front_squat': 'skip',
+        'snatch_pull': 'skip',
+    },
+    {
+        'week': '2',
+        'back_squat': '135 x 5',
+        'clean_pull': '-',
         'front_squat': '-',
-        'snatch_pull': '-',
+        'snatch_pull': 'skip',
     },
     {
         'week': '3',
@@ -26,13 +33,6 @@ export const cycle = [
     },
     {
         'week': '4',
-        'back_squat': '-',
-        'clean_pull': '-',
-        'front_squat': '-',
-        'snatch_pull': '-',
-    },
-    {
-        'week': '5',
         'back_squat': '-',
         'clean_pull': '-',
         'front_squat': '-',
