@@ -20,8 +20,8 @@ export const cycle = [
     {
         'week': '2',
         'back_squat': '135 x 5',
-        'clean_pull': '-',
-        'front_squat': '-',
+        'clean_pull': '100 x 3',
+        'front_squat': 'skip',
         'snatch_pull': 'skip',
     },
     {
