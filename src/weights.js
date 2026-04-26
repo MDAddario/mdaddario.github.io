@@ -1,6 +1,6 @@
 export const snatch = '73'
 
-export const clean_jerk = '85'
+export const clean_jerk = '95'
 
 export const cycle = [
     {
@@ -34,9 +34,9 @@ export const cycle = [
     {
         'week': '4',
         'back_squat': '155 x 5',
-        'clean_pull': '-',
-        'front_squat': '-',
-        'snatch_pull': '-',
+        'clean_pull': 'skip',
+        'front_squat': '130 x 4',
+        'snatch_pull': 'skip',
     },
     {
         'week': 'PR',
